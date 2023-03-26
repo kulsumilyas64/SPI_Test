@@ -4,7 +4,7 @@
 #include "main.h"
 #include<stdio.h>   // Header added for sprintf
 
-/* Constants created representing available instructions that can be send to the peripheral connected */
+/* Constants created representing available instructions that can be send to the peripheral connected(pphl) */
 const uint8_t pphl_READ  =  0b00000011;
 const uint8_t pphl_WRITE =  0b00001011;
 const uint8_t pphl_WREN  =  0b00001010;
